@@ -1,3 +1,8 @@
+/**
+ * @singleton
+ * @type {Object}
+ * @author Arhur Kay (http://www.akawebdesign.com)
+ */
 aKa = {
     version     : '0.1',
     versionDate : 'July 24, 2012',

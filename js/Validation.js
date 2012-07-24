@@ -1,3 +1,7 @@
+/**
+ * @singleton
+ * @type {Object}
+ */
 aKa.Validation = {
     verbose : true,
 

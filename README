@@ -1,0 +1,21 @@
+= aKa Small Business =
+
+This repo is a collection of utility classes that I often use when creating small business websites. Things like:
+
+  - "Contact Us" form validation
+  - Basic slideshow functionality
+  - Basic lightbox functionality
+
+
+= The Story =
+
+Basically, I got tired of searching for a variety of jQuery plugins that did what I wanted. Every time I did this, I had to modify the JavaScript or CSS to do what I wanted.
+
+It's simply easier to have everything under one roof. Also, I don't have to worry about software licenses.
+
+I doubt anyone will find this interesting... I am admittedly not a "jQuery Guy" (I work for Sencha), and the functionality in these classes is basic at best.
+
+
+== Other Stuff ==
+
+There are unit tests and examples contained in this repo.
