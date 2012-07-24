@@ -1,0 +1,35 @@
+{
+    "projectName": "aKa Small Business",
+    "licenseText": "Copyright(c) 2012 aKa Web Design (www.akawebdesign.com)",
+    "builds": [
+        {
+            "name": "All Classes",
+            "target": "aKa-all.js",
+            "compress": false,
+            "files": [
+                {
+                    "clsName": "aKa",
+                    "name": "aKa.js",
+                    "path": "js/"
+                },
+                {
+                    "clsName": "aKa.Validation",
+                    "name": "Validation.js",
+                    "path": "js/"
+                }
+            ]
+        },
+        {
+            "name": "Production",
+            "target": "aKa-all-min.js",
+            "compress": true,
+            "files": [
+                {
+                    "path": "build/",
+                    "name": "aKa-all.js"
+                }
+            ]
+        }
+    ],
+    "resources": []
+}

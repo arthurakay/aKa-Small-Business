@@ -19,3 +19,5 @@ I doubt anyone will find this interesting... I am admittedly not a "jQuery Guy" 
 == Other Stuff ==
 
 There are unit tests and examples contained in this repo.
+
+Additionally, the Sencha SDK Tools are used to generate the packaged files under /build/
