@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title></title>
+
+        <!-- Jasmine -->
+        <script type="text/javascript" src="../resources/jasmine-standalone-1.1.0/lib/jasmine-1.1.0/jasmine.js"></script>
+        <script type="text/javascript" src="../resources/jasmine-standalone-1.1.0/lib/jasmine-1.1.0/jasmine-html.js"></script>
+        <link type="text/css" rel="stylesheet" href="../resources/jasmine-standalone-1.1.0/lib/jasmine-1.1.0/jasmine.css" />
+
+        <!-- jQuery -->
+        <script type="text/javascript" src="../resources/jquery-1.7.2.min.js"></script>
+
+        <!-- ### CLASSES UNDER TEST ### -->
+        <script type="text/javascript" src="../js/aKa.js"></script>
+        <script type="text/javascript" src="../js/Validation.js"></script>
+
+        <!-- ### UNIT TEST CLASSES ### -->
+        <script type="text/javascript" src="js/aKa.js"></script>
+        <script type="text/javascript" src="js/Validation.js"></script>
+
+        <style type="text/css">
+            #test-form { visibility: hidden; }
+        </style>
+
+    </head>
+    <body>
+        <script type="text/javascript">
+            $(window).load(function() {
+                jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+                jasmine.getEnv().execute();
+            });
+        </script>
+
+        <form onsubmit="return aKa.validateForm(this);" id="test-form">
+            <input class="aka-validation" type="text" vtype="text" />
+            <input class="aka-validation" type="text" vtype="phone" />
+            <input class="aka-validation" type="text" vtype="email" />
+
+            <input type="submit" value="Submit" />
+        </form>
+
+    </body>
+</html>
